@@ -1,0 +1,172 @@
+/* fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* common styles  */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Home banner  */
+.login-button{
+    background-color: #E76F51;
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+
+}
+
+.main-home{
+    background-color: #264653;
+    color: white;
+}
+
+.home-text{
+    padding-top: 70px;
+}
+.home-text h1{
+    font-weight: 600;
+    font-size: 48px;
+    
+}
+.home-text p{
+    font-weight: 300;
+    font-size: 16px;
+}
+.browse-1{
+    color: #fff;
+    background-color: #E76F51;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 500;
+    height: 44px;
+    width: 168px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Feature Bike section  */
+.fetured-bike{
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+.fetured-bike h1{
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+}
+.gray-bike{
+    filter: grayscale(100%);
+}
+.fetured-info{
+    color: #E76F51;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* Latestest Bike  */
+.card-title-custom{
+    font-weight: 600;
+    font-size: 28px;
+    color: #18191F;
+}
+.card-body-custom{
+    color: #6C6C6C;
+}
+.buy-now-button{
+    color: #E76F51;
+    border: 1px solid #E76F51;
+}
+.buy-now-button:hover{
+    background-color: #E76F51;
+    border: 1px solid #E76F51;
+}
+/* Carosel Section  */
+.home-detail{
+    padding-left: 25%;
+}
+/* Customer Section  */
+.customer-review-tittle{
+    color: #E76F51;
+}
+.customer-picture {
+    height: 149px;
+    width: 149px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.fa-star{
+    color: #E77C40;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.user-name{
+    color: #23A6F0;
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+.user-profession{
+    font-weight: 600;
+    font-size: 14px;
+    color: #252B42;
+}
+/* Frequently aked question section  */
+.auked-ques-button{
+    color: #383838;
+    font-size: 20px;
+    font-weight: 500;
+}
+.auked-ques-ans{
+    color: #7E848C;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Footer section  */
+footer{
+    background-color: #0B0D17;
+    color: white;
+}
+.footer-logo{
+    display: grid;
+    justify-content: end;
+    align-items: center;
+}
+.app{
+    /* display: flex; */
+    align-items: center;
+    padding: 10px;
+}
+.ios, .android{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B3445;
+    width: 145px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin: 15px;
+}
+.ios img, .android img{
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+.ios small, .android small{
+    font-size: x-small;
+    font-weight: 700;
+    color: #8F939D;
+}
